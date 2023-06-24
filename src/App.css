@@ -12,3 +12,74 @@
   /* Used for borders and some backgrounds */
   --color-water-10: #e4e8f0;
 }
+
+.header {
+  background-color: var(--color-water-10);
+  height: 54px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.title {
+  margin: auto;
+  padding: 15px 10px 10px 10px;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: var(--color-granite);
+  color: var(--color-foam);
+  height: 54px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.form {
+  margin-top: 80px;
+  display: grid;
+  padding: 16px;
+}
+
+.form__title {
+  font-size: 18px;
+  text-align: center;
+}
+
+.labelForm {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.createButton {
+  background-color: var(--color-nemo);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  display: block;
+  border-radius: 3px;
+  margin: 32px auto 0 auto;
+  height: 48px;
+}
+
+.createButton:active {
+  background-color: var(--color-nemo-mid);
+}
+
+.createButton:active {
+  background-color: var(--color-nemo-dark);
+}
+
+.MottoInput {
+  color: var(--color-water-10);
+  height: 62px;
+}
+
+.NotesInput {
+  color: var(--color-water-10);
+  height: 124px;
+}
