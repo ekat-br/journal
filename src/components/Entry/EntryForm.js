@@ -9,7 +9,7 @@ export default function EntryForm() {
       <label htmlFor="notes" className="labelForm">
         Notes
       </label>
-      <input type="text" id="notes" className="NotesInput"></input>
+      <textarea type="text" id="notes" className="NotesInput"></textarea>
       <button type="submit" className="createButton">
         Create
       </button>

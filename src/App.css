@@ -83,3 +83,44 @@
   color: var(--color-water-10);
   height: 124px;
 }
+
+/* === Tab Bar === */
+.tabBar {
+  display: flex;
+  gap: 10px;
+  margin: 80px 16px 48px 16px;
+  align-items: center;
+}
+
+.allEntriesButton {
+  background-color: var(--color-nemo);
+  width: 25px;
+  height: 18px;
+  padding: 0 9px 0 9px;
+  font-size: 12px;
+  border-radius: 999px;
+  border: none;
+  color: var(--color-foam);
+}
+
+.allEntriesText {
+  color: var(--color-nemo);
+  font-size: 16px;
+  font-weight: 700;
+}
+.FavoritesText {
+  color: var(--color-granite);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.FavoritesButton {
+  background-color: var(--color-water-10);
+  width: 25px;
+  height: 18px;
+  padding: 0 9px 0 9px;
+  font-size: 12px;
+  border-radius: 999px;
+  border: none;
+  color: var(--color-granite);
+}
